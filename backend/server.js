@@ -8,6 +8,7 @@ connectDB();
 
 const app = express();
 
+
 // Middleware to parse incoming JSON data
 app.use(express.json()); // This must come before your routes
 
